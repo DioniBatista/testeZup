@@ -10,8 +10,6 @@ public class MeuTesteZup {
 		//receber coordenadas
 		rover.coordenadas("MMRMMRMRRM");
 		System.out.println(rover.getEixoX()+ " "+ rover.getEixoY()+" "+rover.getDirecao().getNome());
-		
-		
 	}
 
 }

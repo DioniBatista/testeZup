@@ -50,6 +50,8 @@ public class Rover {
 				}
 			}catch(IllegalArgumentException e){
 				System.out.println(e.getMessage());
+				//descomentar para gerar excecao para o Junit
+				//throw e; 
 			}
 		}
 	}
@@ -110,6 +112,8 @@ public class Rover {
 			}
 		}catch(IndexOutOfBoundsException i){
 			System.out.println(i.getMessage());
+			//descomentar para gerar excecao para o Junit
+			//throw i; 
 		}
 		
 	}
@@ -128,6 +132,8 @@ public class Rover {
 			}
 		}catch(IndexOutOfBoundsException i){
 			System.out.println(i.getMessage());
+			//descomentar para gerar excecao para o Junit
+			//throw i; 
 		}
 	}
 }
